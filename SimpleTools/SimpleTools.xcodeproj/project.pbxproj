@@ -13,6 +13,7 @@
 		6ABC32E82313AF2E001DD47A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ABC32E72313AF2E001DD47A /* Assets.xcassets */; };
 		6ABC32EB2313AF2E001DD47A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ABC32E92313AF2E001DD47A /* LaunchScreen.storyboard */; };
 		6ABC32EE2313AF2E001DD47A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC32ED2313AF2E001DD47A /* main.m */; };
+		6ABC32F82313AFDE001DD47A /* NSObject+BlockObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC32F62313AFDE001DD47A /* NSObject+BlockObserver.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		6ABC32EA2313AF2E001DD47A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6ABC32EC2313AF2E001DD47A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6ABC32ED2313AF2E001DD47A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6ABC32F62313AFDE001DD47A /* NSObject+BlockObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BlockObserver.m"; sourceTree = "<group>"; };
+		6ABC32F72313AFDE001DD47A /* NSObject+BlockObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BlockObserver.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,7 @@
 		6ABC32D22313AF2C001DD47A = {
 			isa = PBXGroup;
 			children = (
+				6ABC32F42313AF9E001DD47A /* Tools */,
 				6ABC32DD2313AF2C001DD47A /* SimpleTools */,
 				6ABC32DC2313AF2C001DD47A /* Products */,
 			);
@@ -69,6 +73,39 @@
 				6ABC32ED2313AF2E001DD47A /* main.m */,
 			);
 			path = SimpleTools;
+			sourceTree = "<group>";
+		};
+		6ABC32F42313AF9E001DD47A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				6ABC32FA2313B08F001DD47A /* backTask */,
+				6ABC32F92313AFEE001DD47A /* macros */,
+				6ABC32F52313AFAB001DD47A /* notify */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		6ABC32F52313AFAB001DD47A /* notify */ = {
+			isa = PBXGroup;
+			children = (
+				6ABC32F72313AFDE001DD47A /* NSObject+BlockObserver.h */,
+				6ABC32F62313AFDE001DD47A /* NSObject+BlockObserver.m */,
+			);
+			path = notify;
+			sourceTree = "<group>";
+		};
+		6ABC32F92313AFEE001DD47A /* macros */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = macros;
+			sourceTree = "<group>";
+		};
+		6ABC32FA2313B08F001DD47A /* backTask */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = backTask;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6ABC32E32313AF2C001DD47A /* ViewController.m in Sources */,
+				6ABC32F82313AFDE001DD47A /* NSObject+BlockObserver.m in Sources */,
 				6ABC32EE2313AF2E001DD47A /* main.m in Sources */,
 				6ABC32E02313AF2C001DD47A /* AppDelegate.m in Sources */,
 			);
